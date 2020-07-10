@@ -1,0 +1,463 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
+  .navbar {
+    background-image: url(img2/back3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .navbar-toggler {
+    background: #D15B30;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .nav-link:hover {
+    color: #D15B30 !important;
+  }
+  
+  .nav-item__loguito {
+    width: auto;
+    height: 55px;
+    margin: auto;
+    padding-right: 45px;
+  }
+
+  .bi{
+    color: white;
+    width: 2em;
+    height: 2em;
+  }
+
+  .section1 {
+      background-image: url(img2/back1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      padding-bottom: 1%;
+  }
+
+  .section1 > .btn {
+    display: flex;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    padding: 15px;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .section1 > .btn {
+      margin: 15% auto;
+      width: 60%;
+      padding: 7px;
+    }
+  } 
+
+  .perros_section_1{
+    max-height: 90%;
+    max-width: 55%;
+    padding: 0;
+    margin-left: 30%; 
+    align-content: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .perros_section_1 {
+      width: auto;
+      height: auto;
+      padding-top: 6%;
+    }
+  } 
+
+  .texto1{
+    font-size: calc(1em + 1vw);
+    font-style: bold;
+    color: whitesmoke;
+    margin: 22%;
+    position: absolute;
+    text-align: right;
+    line-height: 30px;
+    padding-top: 15%;
+  }  
+
+   @media screen and (max-width: 567px) {
+  .texto1 {
+    line-height: 10px;
+    margin-left: 15%;
+  }
+} 
+
+  .section2 {
+      background-image: url(img2/back2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section2 {
+      background-image: url(img2/back2-responsive.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  } 
+
+  .contenedor_section2{
+    background: none;
+    opacity: 100%;
+    height: 768px;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    align-items: end;
+    }
+
+   @media screen and (max-width: 768px) {
+    .contenedor_section2 {
+      margin: auto;
+      grid-template-columns: 1fr;
+      width: auto;
+    }
+  } 
+
+  .perrito1 {
+     width: 100%;
+     height: 100%;
+     align-self: end;
+     padding: auto;
+     position: inline;
+  }
+
+  @media screen and (max-width: 768px) {
+    .perrito1 {
+      display: none;
+    }
+  }
+
+  .historia{
+      background: transparent;
+      padding: 20px;
+      box-sizing: border-box;
+      width: 75%;
+      height: 768px;
+      margin-left: 0%;
+      align-self: end;
+      box-shadow: -10px 0px 5px 0px rgba(0, 0, 0, .25) 
+}
+
+@media screen and (max-width: 768px) {
+  .historia {
+    margin: auto;
+    width: auto;
+    padding: 15% 10%;
+  }
+} 
+
+  .historia h3{
+    color: #e2ae10;
+  }
+
+  .historia hr{
+    background: #848484;
+    width: 100%;
+    height: 2px;
+  }
+
+  .section3 {
+      background-image: url(img2/back3.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+  }
+
+  .contenedor_general_donaciones{
+    background: none;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    grid-gap: -5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .contenedor_general_donaciones{
+      background: none;
+      justify-items: center !important;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      padding-left: 25%;
+  } 
+}
+
+  @media screen and (max-width: 768px) {
+    .contenedor_logos .contenedor_donaciones{
+      justify-self: center !important;
+      align-self: center;
+  } 
+}
+
+  .contenedor_donaciones{
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 5px;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px 0 0 5px;
+    min-height: 551px;
+    max-height: 551px;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+    justify-self: stretch;
+    align-self: stretch;
+    margin-right: 25px;
+  }
+
+  .contenedor_donaciones > .btn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color:white;
+  }
+
+  .contenedor_logos{
+    background: #dcdada;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 125px 100px;
+    margin-left: -25px;
+    padding: 15px 3px;
+    border-radius: 0 5px 5px 0;
+    max-height: auto;
+    max-width: auto;
+    grid-gap: 15px;
+    justify-items: center;
+    align-items: center;
+    justify-self: stretch;
+    align-self: stretch;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .contenedor_logos .contenedor_donaciones .contenedor_general_donaciones{
+      margin: auto;
+    }
+  }
+
+  .fotos_perros{
+    max-height: 700px;
+    max-width: 100%;
+    align-items: center;
+    margin-left: 25px;
+    z-index: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    .fotos_perros {
+      display: none;
+    }
+  }
+
+  .section4 {
+      background-image: url(img2/back4.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;   
+  }
+
+  .tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 5px;
+    grid-row: 5px;
+    margin: auto;
+    width: 85%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 3%;
+    justify-items: center;
+  }
+
+  @media screen and (max-width: 992px) {
+    .tarjetas {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .tarjetas {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .card1 .card2 .card3 .card4 .card5 .card6{
+      background: whitesmoke;
+  }
+
+  .section5 {
+      background-image: url(img2/back5.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 768px;      
+  }
+
+  .formulario {
+    width: 65%;
+    height: 65%;
+    background-color: #f8f8f8;
+    padding: 35px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+  input, textarea{
+   margin-bottom: 10px;
+   width: 100%;
+   padding: 7px;
+   box-sizing: border-box;
+   font-size: 15px
+   }
+  
+  textarea{
+   min-height: 100px;
+   max-height: 200px;
+   max-width: 100%;
+   }
+
+   form{
+     display: grid;
+     grid-gap: 5px;
+   }
+   
+  #boton{
+  background: #386FB5;
+  color: whitesmoke;
+  padding: 5px;
+  width: 50%;
+  border-radius: 5px;
+  border: blue;
+  box-shadow: 1px 1px 1px 1px #386FB5;
+  }
+  
+  #boton:hover {
+    cursor: pointer;
+    background: #1e4981;
+  }
+
+  @media screen and (max-width: 768px) {
+    .formulario {
+      margin: auto;
+      width: 80%;
+      opacity: 90%;
+      margin-top: 20%;
+    }
+  }
+
+  .gato_contacto{
+    align-self: flex-end;
+    box-sizing: border-box;
+    padding-right: 150px;
+    position: absolute;
+    right: 1%;
+  }
+
+  @media screen and (max-width: 1090px) {
+    .gato_contacto {
+      display: none;
+    }
+  }
+
+  .fab{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+  }
+
+  .fab:hover{
+    color: #D15B30;
+  }
+
+  .contenedor_contactogato{
+    display: flex;
+    background: none;
+    min-width: 50%;
+    min-height: 768px;
+    margin-left: 50%;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 55px;
+    /* opacity: 50%; */
+  }
+
+  @media screen and (max-width: 990px) {
+    .contenedor_contactogato {
+      height: auto;
+      margin: auto;
+      width: auto;
+      padding: 0 0;
+    }
+  }
+
+  footer {
+      background-image: url(img2/back3.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      display: flex;
+      align-self: flex-end;
+      height: 125%;
+      color: white;
+      text-align: center;
+      line-height: 2;
+  }
+  
+  /* Botón para ir arriba */
+
+  .ir-arriba {
+    display:none;
+    border-radius: 5px;
+    padding:20px;
+    background:#D15B30;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer !important;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+ } 
